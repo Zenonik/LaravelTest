@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Post erstellen'])
 
 @section('content')
     <div class="postcontent" xmlns="http://www.w3.org/1999/html">

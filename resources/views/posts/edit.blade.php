@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Edit' . $post->title])
 
 @section('content')
 

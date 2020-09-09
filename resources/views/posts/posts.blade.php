@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Posts'])
 
 @section('content')
 

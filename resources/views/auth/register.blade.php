@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Registrieren'])
 
 @section('content')
     <div class="postcontent">

@@ -1,4 +1,4 @@
-@extends('../layoutmenu')
+@extends('../layoutmenu', ['title' => $post->title])
 
 @section('content')
     <div class="postcontent">

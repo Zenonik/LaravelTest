@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Reset'])
 
 @section('content')
 <div class="container">

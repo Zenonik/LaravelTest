@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Impressum'])
 @section('content')
     <div class="impressum">
         <h1>Datenschutzerklärung</h1>

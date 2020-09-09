@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Confirm'])
 
 @section('content')
 <div class="container">

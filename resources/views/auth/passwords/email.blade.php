@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'E-Mail'])
 
 @section('content')
 <div class="container">

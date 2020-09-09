@@ -1,4 +1,4 @@
-@extends('layoutmenu')
+@extends('layoutmenu', ['title' => 'Verifizieren'])
 
 @section('content')
 <div class="container">
