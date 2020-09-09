@@ -1,0 +1,284 @@
+html, body {
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    background: url('/bg-4.png');
+    background-size: cover;
+}
+
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.postcontent {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.posttitle {
+    font-size: 84px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.links > a {
+    color: #FFFFFF;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links a:hover {
+    color: red;
+    border-radius: 10%;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar p {
+    float: left;
+    color: darkred;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 100;
+        color: red;
+    }
+}
+
+.user {
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 14px 16px;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 4vh;
+    max-width: 4vh;
+    height: auto;
+}
+
+.form_position {
+    position: center;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #637BFF, #21C8F6);
+    border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+    box-shadow: none;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+}
+
+.impressum {
+    padding-top: 10vh;
+    width: 50%;
+    height: 100vh;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+
+.button {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #637BFF;
+
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+
+    background: linear-gradient(to right, #637BFF, #21C8F6);
+    border: none;
+    color: #fff;
+
+    transition: all 0.5s;
+}
+
+.button:hover,
+.button:active {
+    text-decoration: none;
+    color: #637BFF;
+    border: none;
+    background: #fff;
+}
+
+.button span {
+    display: inline-block;
+    position: relative;
+    padding-right: 0;
+
+    transition: padding-right 0.5s;
+}
+
+.button span:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -18px;
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+    margin-top: -10px;
+
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid #fff;
+    border-top: none;
+    border-right: none;
+
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    transform: rotate(-45deg);
+}
+
+.button:hover span,
+.button:active span {
+    padding-right: 30px;
+}
+
+.button:hover span:after,
+.button:active span:after {
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    opacity: 1;
+    border-color: #0c5;
+}
