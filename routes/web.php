@@ -40,6 +40,10 @@ Route::get('/impressum', function (){
     return view('impressum');
 });
 
+Route::get('/dashboard', function ()){
+    return view('');
+}
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -48,30 +52,11 @@ Route::get('/logout', function (){
     return redirect('');
 });
 
+Route::get('/contact', 'ContactController@show');
+Route::post('/contact', 'ContactController@store');
+
 Route::get('/{post}', function ($post) {
     abort(404);
 });
 
-Route::get('/mailtest', function (){
-    return view('mailtest');
-});
-
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

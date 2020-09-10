@@ -22,18 +22,16 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a1a432-f6ff-44b6-99e4-e3adc5e9a8d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layoutmenu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layoutmenu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mailtest.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,21 +185,21 @@
     <property name="node.js.path.for.package.stylelint" value="node" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tobias.windmann\Test\public\css" />
-      <recent name="C:\Users\tobias.windmann\Test\public" />
-      <recent name="C:\Users\tobias.windmann\Test\database\migrations" />
-      <recent name="C:\Users\tobias.windmann\Test\resources\views" />
-      <recent name="C:\Users\tobias.windmann\Test\resources\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tobias.windmann\Test\resources\js" />
       <recent name="C:\Users\tobias.windmann\Test\public\css" />
       <recent name="C:\Users\tobias.windmann\Test\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tobias.windmann\Test\resources\views\dashboard" />
+      <recent name="C:\Users\tobias.windmann\Test\resources\views\emails" />
+      <recent name="C:\Users\tobias.windmann\Test\public" />
+      <recent name="C:\Users\tobias.windmann\Test\public\css" />
+      <recent name="C:\Users\tobias.windmann\Test\database\migrations" />
     </key>
   </component>
   <component name="RunManager">
@@ -236,7 +234,8 @@
       <workItem from="1599631762237" duration="8245000" />
       <workItem from="1599640430845" duration="2128000" />
       <workItem from="1599719978856" duration="2706000" />
-      <workItem from="1599723248479" duration="908000" />
+      <workItem from="1599723248479" duration="1028000" />
+      <workItem from="1599724284373" duration="10167000" />
     </task>
     <servers>
       <GitHub url="https://github.com">
@@ -253,19 +252,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -285,6 +272,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2472" y="238" width="816" height="729" key="#Intentions/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599028580039" />
+    <state x="2634" y="404" key="#Notifications" timestamp="1599724297908">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2634" y="404" key="#Notifications/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724297908" />
     <state x="2594" y="222" key="#PHP" timestamp="1599127555770">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -294,10 +285,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2617" y="469" key="#Stylelint/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722592736" />
-    <state x="2651" y="335" key="FileChooserDialogImpl" timestamp="1599722591064">
+    <state x="2651" y="335" key="FileChooserDialogImpl" timestamp="1599724233858">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2651" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722591064" />
+    <state x="2651" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724233858" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599569094455">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -338,9 +329,10 @@
     </state>
     <state width="1877" height="396" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599566916350" />
     <state width="1877" height="396" key="GridCell.Tab.1.right/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599054878510" />
-    <state x="2991" y="302" key="NewPhpClassDialog" timestamp="1599029422551">
+    <state x="2991" y="302" key="NewPhpClassDialog" timestamp="1599724480991">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
+    <state x="2991" y="302" key="NewPhpClassDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724480991" />
     <state x="736" y="303" key="NewPhpClassDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1598970886379" />
     <state x="2991" y="302" key="NewPhpClassDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599029422551" />
     <state x="2714" y="503" key="NewPhpFileDialog" timestamp="1599723835517">
@@ -350,12 +342,12 @@
     <state x="2714" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599723835517" />
     <state x="794" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1598970849716" />
     <state x="2714" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599030474190" />
-    <state x="2785" y="248" key="SettingsEditor" timestamp="1599723220308">
+    <state x="2785" y="248" key="SettingsEditor" timestamp="1599724309833">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="865" y="248" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1599478431467" />
     <state x="865" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599720211929" />
-    <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599723220308" />
+    <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724309833" />
     <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599029250693" />
     <state x="2660" y="293" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599723167055">
       <screen x="1920" y="0" width="1920" height="1160" />
@@ -365,12 +357,12 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2536" y="270" key="run.anything.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599053406411" />
-    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1599722625702">
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1599725854005">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599646018080" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599568261274" />
-    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722625702" />
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599725854005" />
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599117664314" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
