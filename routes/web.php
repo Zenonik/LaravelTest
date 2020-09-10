@@ -40,9 +40,9 @@ Route::get('/impressum', function (){
     return view('impressum');
 });
 
-Route::get('/dashboard', function ()){
-    return view('');
-}
+Route::get('/dashboard', function (){
+    return view('dashboard.profile');
+});
 
 Auth::routes();
 

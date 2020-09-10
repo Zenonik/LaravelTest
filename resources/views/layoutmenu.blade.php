@@ -30,7 +30,7 @@
         ?>
            @if (Route::has('login'))
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Dashboard</a>
                         <a href="{{url('/logout')}}">Logout</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
