@@ -52,6 +52,10 @@ Route::get('/{post}', function ($post) {
     abort(404);
 });
 
+Route::get('/mailtest', function (){
+    return view('mailtest');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -19,10 +19,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a1a432-f6ff-44b6-99e4-e3adc5e9a8d3" name="Default Changelist" comment="" />
+    <list default="true" id="51a1a432-f6ff-44b6-99e4-e3adc5e9a8d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layoutmenu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layoutmenu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +55,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Zenonik/LaravelTest" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -152,7 +172,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gui2EzXsm3aFODvI6hjEpa10Fo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -161,8 +183,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="node" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -210,8 +235,15 @@
       <workItem from="1599566923924" duration="8701000" />
       <workItem from="1599631762237" duration="8245000" />
       <workItem from="1599640430845" duration="2128000" />
+      <workItem from="1599719978856" duration="2706000" />
+      <workItem from="1599723248479" duration="908000" />
     </task>
-    <servers />
+    <servers>
+      <GitHub url="https://github.com">
+        <option name="repoAuthor" value="Zenonik" />
+        <option name="repoName" value="LaravelTest" />
+      </GitHub>
+    </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -221,11 +253,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2467" y="234" key="#CLI_Interpreters" timestamp="1599053369476">
@@ -245,6 +290,14 @@
     </state>
     <state x="2594" y="222" key="#PHP/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599127555770" />
     <state x="2594" y="222" key="#PHP/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599053370691" />
+    <state x="2617" y="469" key="#Stylelint" timestamp="1599722592736">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2617" y="469" key="#Stylelint/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722592736" />
+    <state x="2651" y="335" key="FileChooserDialogImpl" timestamp="1599722591064">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2651" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722591064" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599569094455">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -290,29 +343,34 @@
     </state>
     <state x="736" y="303" key="NewPhpClassDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1598970886379" />
     <state x="2991" y="302" key="NewPhpClassDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599029422551" />
-    <state x="794" y="503" key="NewPhpFileDialog" timestamp="1599557740251">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2714" y="503" key="NewPhpFileDialog" timestamp="1599723835517">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="794" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599557740251" />
-    <state x="2714" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599224788102" />
+    <state x="2714" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599723835517" />
     <state x="794" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1598970849716" />
     <state x="2714" y="503" key="NewPhpFileDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599030474190" />
-    <state x="865" y="248" key="SettingsEditor" timestamp="1599478431467">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2785" y="248" key="SettingsEditor" timestamp="1599723220308">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="865" y="248" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1599478431467" />
-    <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599123229713" />
+    <state x="865" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599720211929" />
+    <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599723220308" />
     <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599029250693" />
+    <state x="2660" y="293" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599723167055">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2660" y="293" key="git4idea.branch.GitSmartOperationDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599723167055" />
     <state x="2536" y="270" key="run.anything.popup" timestamp="1599053406411">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2536" y="270" key="run.anything.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599053406411" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1599646018080">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1599722625702">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599646018080" />
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599568261274" />
-    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599224246032" />
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722625702" />
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599117664314" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">

@@ -41,7 +41,7 @@
                     @endauth
             @endif
     </div>
-
+@csrf
 @yield('content')
 
 </body>
