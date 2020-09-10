@@ -3,23 +3,28 @@
 @section('content')
 
     <div class="content">
-        <div class="title m-b-md">
-            Alle Posts
-        </div>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Alle Posts</h2>
 
         <div class="links">
             <?php
-                use App\Posts;
-                try{
+            use App\Posts;
+            try {
                 $results = DB::select('select * from posts where !hide');
-                foreach ($results as $object){
-                    echo "<a href=/posts/" . $object->link . ">" . $object->title ."</a>";
-                    }
-                } catch(\Illuminate\Database\QueryException $ex){
-                    echo "<p> Es gab ein Problem mit der Datenbank: </p>" . "<p>" . $ex->getMessage() . "</p>";
+                foreach ($results as $object) {
+                    echo "<div class='row''>
+                        <div class='col-md-6 col-lg-4 mb-5'>
+                        <a class='portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100' href=/posts/" . $object->link . ">" . $object->title . "</a>
+                    </div>
+                    </div>";
                 }
-                ?>
+            } catch (\Illuminate\Database\QueryException $ex) {
+
+                echo "<div class='row''>
+                        <div class='col-md-6 col-lg-4 mb-5'> <a class='portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100'> Es gab ein Problem mit der Datenbank: </a>" . "<a>" . $ex->getMessage() . "</a> </div>
+                    </div>";
+            }
+            ?>
         </div>
     </div>
-</div>
+    </div>
 @endsection
