@@ -25,19 +25,30 @@ Route::get('/500', function (){
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/posts', 'PostsController@index');
 Route::post('/posts', 'PostsController@store');
 Route::get('/posts/create', 'PostsController@create');
 Route::get('/posts/{post}', 'PostsController@show');
 Route::get('/posts/{post}/edit', 'PostsController@edit');
-Route::put('posts/{post}', 'PostsController@update');
+Route::put('/posts/{post}', 'PostsController@update');
 
-Route::get('/posts/', function () {
-    return view('posts.posts');
-});
+Route::put('/hide/{post}', 'PostsController@hide');
+
+Route::put('/user/{post}', 'UserController@update');
+
+//Route::get('/posts/', function () {
+//    return view('posts.posts');
+//});
 
 Route::get('/impressum', function (){
     return view('impressum');
+});
+
+Route::get('/profile', function (){
+   return view('dashboard.profile');
+});
+
+Route::get('/blank', function (){
+    return view('dashboard.blank');
 });
 
 Auth::routes();

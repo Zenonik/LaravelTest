@@ -28,17 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a1a432-f6ff-44b6-99e4-e3adc5e9a8d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/home.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/blank.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/blank.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/profile.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mailtest.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,17 +190,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tobias.windmann\Test\public\uploads\avatars" />
+      <recent name="C:\Users\tobias.windmann\Test\resources\views" />
+      <recent name="C:\Users\tobias.windmann\Test\public\img\avatars" />
+      <recent name="C:\Users\tobias.windmann\Test\public" />
+      <recent name="C:\Users\tobias.windmann\Test\public\img\dogs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tobias.windmann\Test\resources\js" />
       <recent name="C:\Users\tobias.windmann\Test\public\css" />
       <recent name="C:\Users\tobias.windmann\Test\resources\views" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tobias.windmann\Test\public\uploads\avatars" />
-      <recent name="C:\Users\tobias.windmann\Test\public\img\avatars" />
-      <recent name="C:\Users\tobias.windmann\Test\public" />
-      <recent name="C:\Users\tobias.windmann\Test\resources\views" />
-      <recent name="C:\Users\tobias.windmann\Test\public\img\dogs" />
     </key>
   </component>
   <component name="RunManager">
@@ -243,6 +237,7 @@
       <workItem from="1599719978856" duration="2706000" />
       <workItem from="1599723248479" duration="1028000" />
       <workItem from="1599724284373" duration="22212000" />
+      <workItem from="1599804066479" duration="16954000" />
     </task>
     <servers>
       <GitHub url="https://github.com">
@@ -292,6 +287,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2617" y="469" key="#Stylelint/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722592736" />
+    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599818166544">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599818166544" />
     <state x="2651" y="335" key="FileChooserDialogImpl" timestamp="1599724233858">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -356,18 +355,23 @@
     <state x="865" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599740014089" />
     <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724309833" />
     <state x="2785" y="248" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599029250693" />
-    <state x="2697" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599739553657">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="777" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599807683625">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="777" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599807683625" />
     <state x="2697" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599739553657" />
-    <state x="2021" y="-8" width="1482" height="1147" maximized="true" key="dock-window-1" timestamp="1599737706116">
+    <state x="2003" y="0" width="1473" height="1147" key="dock-window-1" timestamp="1599814561026">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2021" y="-8" width="1482" height="1147" maximized="true" key="dock-window-1/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599737706116" />
-    <state x="1894" y="-19" width="1482" height="1147" maximized="true" key="dock-window-2" timestamp="1599742639705">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="2003" y="0" width="1473" height="1147" key="dock-window-1/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599814561026" />
+    <state x="244" y="208" width="1473" height="1147" key="dock-window-2" timestamp="1599814625796">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1894" y="-19" width="1482" height="1147" maximized="true" key="dock-window-2/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599742639705" />
+    <state x="244" y="208" width="1473" height="1147" key="dock-window-2/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599814625796" />
+    <state x="667" y="112" width="585" height="936" key="find.popup" timestamp="1599806592019">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="667" y="112" width="585" height="936" key="find.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599806592019" />
     <state x="2660" y="293" key="git4idea.branch.GitSmartOperationDialog" timestamp="1599723167055">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>

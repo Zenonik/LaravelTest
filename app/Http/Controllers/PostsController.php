@@ -70,6 +70,24 @@ class PostsController
         }
     }
 
+    public function hide($link)
+    {
+        if ($this->checkdb() === 1) {
+            return view('500');
+        } else {
+            $post = Post::where('link', $link)->firstOrFail();
+            $post->update(request()->validate([
+                'title' => 'required',
+                'link' => 'required',
+                'text' => 'required',
+                'hide' => 'required',
+                'user_id' => 'required'
+            ]));
+
+            return redirect('/home/');
+        }
+    }
+
     public function checkdb()
     {
         try {
