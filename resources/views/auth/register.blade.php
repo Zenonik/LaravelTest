@@ -40,6 +40,18 @@
                                     </span>
                                     @enderror
                                 </div>
+                                <div class="form-group">
+                                    <input placeholder="Telefonnummer" id="phone" type="text"
+                                           class="form-control @error('phone') is-invalid @enderror"
+                                           name="phone" value="{{ old('phone') }}" required autocomplete="phone">
+                                    <label for="phone" class="col-sm-6 mb-3 mb-sm-0">{{ __('Telefonnummer') }}</label>
+
+                                    @error('phone')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
+                                </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input placeholder="Passwort" id="password" type="password"

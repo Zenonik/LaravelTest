@@ -8,6 +8,8 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Twilio\Rest\Client;
+use Vonage\Voice\Endpoint\App;
 
 class RegisterController extends Controller
 {
@@ -50,6 +52,7 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
+            'phone' => 'required|regex:/[0-9]{10}/|string|max:15|unique:users', //you can also use required|regex:/[0-9]{10}/|digits:10 as per your needs
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
@@ -64,10 +67,38 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $this->sendSms($data);
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'phone' => $data['phone'],
         ]);
+    }
+
+    public function sendSms($data)
+    {
+        $accountSid = config('app.twilio')['TWILIO_ACCOUNT_SID'];
+        $authToken  = config('app.twilio')['TWILIO_AUTH_TOKEN'];
+        $appSid     = config('app.twilio')['TWILIO_APP_SID'];
+        $client = new Client($accountSid, $authToken);
+        try
+        {
+            // Use the client to do fun stuff like send text messages!
+            $client->messages->create(
+            // the number you'd like to send the message to
+                '+49'.$data['phone'],
+                array(
+                    // A Twilio phone number you purchased at twilio.com/console
+                    'from' => '+18445683854',
+                    // the body of the text message you'd like to send
+                    'body' => 'Hey '.$data['name'].', Danke für deine Anmeldung bei '.config('app.name').'!'
+                )
+            );
+        }
+        catch (Exception $e)
+        {
+            echo "Error: " . $e->getMessage();
+        }
     }
 }

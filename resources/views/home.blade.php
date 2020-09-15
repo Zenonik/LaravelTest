@@ -139,24 +139,6 @@
                     </ul>
 
                 </div>
-                <div class="row ml-2 mr-3">
-                    <div class="col-lg-6 mb-4">
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="text-primary font-weight-bold m-0">Deine Posts</h6>
-                            </div>
-                            <div class='card-body'>
-                                <h4 class="small font-weight-bold">Account setup<span
-                                        class="float-right">Complete!</span></h4>
-                                <div class="progress mb-4">
-                                    <div class="progress-bar bg-success" aria-valuenow="100" aria-valuemin="0"
-                                         aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="col-lg-5 col-xl-4 ml-2">
                 <div class="card shadow mb-4">

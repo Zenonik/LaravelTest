@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('avatar')->default('default.jpg');
             $table->rememberToken();
             $table->timestamps();
+            $table->string('phone')->unique();
         });
     }
 

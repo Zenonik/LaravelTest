@@ -28,10 +28,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a1a432-f6ff-44b6-99e4-e3adc5e9a8d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/blank.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/blank.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -168,6 +177,20 @@
       <path value="$PROJECT_DIR$/vendor/sarfraznawaz2005/loading" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/vendor/vonage/nexmo-bridge" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/client-core" />
+      <path value="$PROJECT_DIR$/vendor/nexmo/laravel" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/twilio/sdk" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gui2EzXsm3aFODvI6hjEpa10Fo" />
@@ -181,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="node" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -237,7 +260,14 @@
       <workItem from="1599719978856" duration="2706000" />
       <workItem from="1599723248479" duration="1028000" />
       <workItem from="1599724284373" duration="22212000" />
-      <workItem from="1599804066479" duration="16954000" />
+      <workItem from="1599804066479" duration="17580000" />
+      <workItem from="1599830360922" duration="7000" />
+      <workItem from="1599830475184" duration="9000" />
+      <workItem from="1600064944919" duration="178000" />
+      <workItem from="1600076906022" duration="47000" />
+      <workItem from="1600087050316" duration="151000" />
+      <workItem from="1600150350956" duration="5982000" />
+      <workItem from="1600160790748" duration="5337000" />
     </task>
     <servers>
       <GitHub url="https://github.com">
@@ -287,32 +317,50 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2617" y="469" key="#Stylelint/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599722592736" />
-    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599818166544">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599818166544" />
-    <state x="2651" y="335" key="FileChooserDialogImpl" timestamp="1599724233858">
+    <state x="2622" y="468" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600168129130">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2651" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724233858" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599569094455">
+    <state x="2622" y="468" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1600168129130" />
+    <state x="741" y="165" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600161267387">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="741" y="165" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600161267387" />
+    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600161428689">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600161428689" />
+    <state x="690" y="335" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599818166544" />
+    <state x="731" y="335" key="FileChooserDialogImpl" timestamp="1600076944499">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="731" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1600076944499" />
+    <state x="2651" y="335" key="FileChooserDialogImpl/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599724233858" />
+    <state width="1077" height="152" key="GridCell.Tab.0.bottom" timestamp="1600168162101">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600168122436" />
+    <state width="1077" height="152" key="GridCell.Tab.0.bottom/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1600168162101" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599569094455" />
     <state width="1877" height="321" key="GridCell.Tab.0.bottom/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599229567436" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599569094455">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1077" height="152" key="GridCell.Tab.0.center" timestamp="1600168162100">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.center/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600168122436" />
+    <state width="1077" height="152" key="GridCell.Tab.0.center/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1600168162100" />
     <state width="1877" height="321" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599569094455" />
     <state width="1877" height="321" key="GridCell.Tab.0.center/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599229567436" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599569094455">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1077" height="152" key="GridCell.Tab.0.left" timestamp="1600168162100">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.left/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600168122436" />
+    <state width="1077" height="152" key="GridCell.Tab.0.left/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1600168162100" />
     <state width="1877" height="321" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599569094455" />
     <state width="1877" height="321" key="GridCell.Tab.0.left/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599229567436" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599569094455">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state width="1077" height="152" key="GridCell.Tab.0.right" timestamp="1600168162100">
+      <screen x="1920" y="0" width="1920" height="1160" />
     </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.right/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600168122436" />
+    <state width="1077" height="152" key="GridCell.Tab.0.right/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1600168162100" />
     <state width="1877" height="321" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599569094455" />
     <state width="1877" height="321" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599229567436" />
     <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1599566916350">
@@ -381,19 +429,20 @@
     </state>
     <state x="733" y="454" width="621" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599740012029" />
     <state x="2653" y="454" width="611" height="281" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599739928465" />
-    <state x="2536" y="270" key="run.anything.popup" timestamp="1599053406411">
+    <state x="2536" y="270" width="672" height="677" key="run.anything.popup" timestamp="1600168156976">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
+    <state x="2536" y="270" width="672" height="677" key="run.anything.popup/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1600168156976" />
     <state x="2536" y="270" key="run.anything.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599053406411" />
-    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1599725854005">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1600163561730">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599646018080" />
-    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1599568261274" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1160/1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1600163561730" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@0.0.1920.1160" timestamp="1600157714225" />
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160/-1920.0.1920.1160@1920.0.1920.1160" timestamp="1599725854005" />
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1599117664314" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Test@phpunit_xml.xml" NAME="phpunit.xml Coverage Results" MODIFIED="1599053396234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Test@phpunit_xml.xml" NAME="phpunit.xml Coverage Results" MODIFIED="1600168119519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

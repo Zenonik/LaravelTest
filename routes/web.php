@@ -26,14 +26,15 @@ Route::get('/', function () {
     return view('index');
 });
 Route::post('/posts', 'PostsController@store');
-Route::get('/posts/create', 'PostsController@create');
+Route::get('/posts/create', 'PostsController@create')->middleware('auth');
 Route::get('/posts/{post}', 'PostsController@show');
 Route::get('/posts/{post}/edit', 'PostsController@edit');
 Route::put('/posts/{post}', 'PostsController@update');
 
 Route::put('/hide/{post}', 'PostsController@hide');
 
-Route::put('/user/{post}', 'UserController@update');
+Route::post('/user/{post}', 'UserController@update');
+Route::post('profile', 'UserController@update_avatar');
 
 //Route::get('/posts/', function () {
 //    return view('posts.posts');
@@ -45,7 +46,7 @@ Route::get('/impressum', function (){
 
 Route::get('/profile', function (){
    return view('dashboard.profile');
-});
+})->middleware('auth');
 
 Route::get('/blank', function (){
     return view('dashboard.blank');
