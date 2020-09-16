@@ -33,7 +33,7 @@ Route::put('/posts/{post}', 'PostsController@update');
 
 Route::put('/hide/{post}', 'PostsController@hide');
 
-Route::post('/user/{post}', 'UserController@update');
+Route::post('/user/', 'UserController@update');
 Route::post('profile', 'UserController@update_avatar');
 
 //Route::get('/posts/', function () {

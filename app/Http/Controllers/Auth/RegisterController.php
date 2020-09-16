@@ -76,11 +76,10 @@ class RegisterController extends Controller
         ]);
     }
 
-    public function sendSms($data)
+    protected function sendSms(array $data)
     {
         $accountSid = config('app.twilio')['TWILIO_ACCOUNT_SID'];
         $authToken  = config('app.twilio')['TWILIO_AUTH_TOKEN'];
-        $appSid     = config('app.twilio')['TWILIO_APP_SID'];
         $client = new Client($accountSid, $authToken);
         try
         {

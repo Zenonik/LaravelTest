@@ -1,4 +1,4 @@
-@extends('../layoutmenu', ['title' => $post->title])
+@extends('layoutmenu', ['title' => $post->title])
 
 @section('content')
     <div class="postcontent">
@@ -15,7 +15,6 @@
             <p>Erstellt von: {{DB::table('users')->where('id',$post->user_id)->first()->name}}</p>
         </div>
 
-    </div>
     </div>
 
 @endsection
